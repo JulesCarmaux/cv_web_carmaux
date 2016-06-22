@@ -93,6 +93,7 @@ a:after {
 	background: #111;
 	line-height: 0;
 	text-align: center;
+    height: 62px;
 }
 
 /*
@@ -328,4 +329,8 @@ label{
 
 .resoc a{
     margin-left: 10px;
+}
+
+#dl{
+    margin-top: 8px;
 }
