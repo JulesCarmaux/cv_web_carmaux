@@ -10,8 +10,13 @@ body {
 }
 font-family: 'Nobile', sans-serif;
 /* Titres */
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h6 {
     font-family: "Nobile";
+    font-weight: 300;
+    color: #333;
+}
+h5, h1{
+    font-family: 'Lobster', cursive;
     font-weight: 300;
     color: #333;
 }
@@ -56,11 +61,12 @@ a:after {
 }
 
  hr {
+    width: 75%;
     display: block;
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -202,9 +208,8 @@ a:after {
 #skillswrap {
 	background: #37A3D5;
 	padding-top: 60px;
-	padding-bottom: 60px;
 	color: white;
-    text-shadow: 0px 0px 9px #777;
+    text-shadow: 0px 1px 9px #777;
     box-shadow: 0px 8px 14px grey;
 }
 
@@ -216,6 +221,7 @@ a:after {
 	background: #2f2f2f;
 	padding-top: 50px;
 	padding-bottom: 50px;
+    color: white;
 }
 
 #footwrap p {
@@ -284,4 +290,42 @@ sm {
 }
 
 
+legend{
+    color: white;
+}
 
+label{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.obj{
+    height: 60px;
+    width: 200px;
+    display: inline-block;
+}
+
+.mess{
+    height: 125px;
+    width: 300px;
+    float: right;
+}
+
+.name_coor{
+    height: 60px;
+    width: 200px;
+    display: inline-block;
+}
+
+.email_coor{
+    height: 60px;
+    width: 200px;
+    float: right;
+    margin-right: 100px;
+}
+
+.resoc a{
+    margin-left: 10px;
+}
