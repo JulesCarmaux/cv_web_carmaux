@@ -335,6 +335,9 @@ label{
     margin-top: 8px;
 }
 
-
-/*///////////////*   TWITTER   *///////////*/*/
-
+.cp{
+    background-color: Black;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
